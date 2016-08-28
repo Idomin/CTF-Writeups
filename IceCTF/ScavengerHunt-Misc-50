@@ -1,0 +1,12 @@
+
+Scavenger Hunt - Misc - 50 points
+
+Hint: There is a flag hidden somewhere on our website, do you think you can find it? Good luck! 
+
+Used wget to download the whole site, "wget -r icec.tf"
+cd into the folder
+strings * | grep IceCTF{
+
+This will return the flag in a img class
+
+IceCTF{Y0u_c4n7_533_ME_iM_h1Din9}
