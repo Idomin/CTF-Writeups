@@ -1,0 +1,13 @@
+
+
+Hint: What a mess... we got a raw flag but now what do we do... 
+url: https://play.icec.tf/problem-static/flag_63c24d48595eae318c9a174f37ffb0f128758e5c16fea0ffebf12b0ba5f5b26a.txt
+
+This is just ascii that is binary encoded.
+Go to http://www.roubaixinteractive.com/PlayGround/Binary_Conversion/Binary_To_Text.asp
+Put in the binary and convert to ascii.
+
+
+
+
+Flag : IceCTF{al1_my_bases_are_yours_and_all_y0ur_bases_are_mine}
