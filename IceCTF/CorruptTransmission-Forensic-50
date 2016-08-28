@@ -1,0 +1,18 @@
+
+
+Corrupt Transmission - Forensic - 50 Points
+
+Hint : We intercepted this image, but it must have gotten corrupted during the transmission.
+Can you try and fix it? 
+File : https://play.icec.tf/problem-static/corrupt_92cee405924ad39fb513e3ef910699b79bb6d45cc5046c051eb9aab3546e22c3.png
+
+Open the file with " xxd -l8 filename " 
+Knowing that the magic numbers for a PNG file are 0x89 0x50 0x4E 0x47 0xD 0xA 0x1A 0xA
+
+The numbers from the file didnt match a PNG so i patched them using an hexeditor.
+The site https://hexed.it can be used. Patch the bytes and save the file.
+Open the file as a valid PNG and you get the flag.
+
+Flag: IceCTF{t1s_but_4_5scr4tch}
+
+
