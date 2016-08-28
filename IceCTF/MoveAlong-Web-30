@@ -1,0 +1,16 @@
+
+
+Move Along - Web - 30 points
+
+Hint: This site seems awfully suspicious, do you think you can figure out what they're hiding? 
+url: http://move-along.vuln.icec.tf/
+
+Display the sourcecode and you will see a link to the picture 
+
+http://move-along.vuln.icec.tf/move_along/nothing-to-see-here.jpg
+
+Remove the ending so you have http://move-along.vuln.icec.tf/move_along/
+This will list 2 pictures go to the picture located at
+http://move-along.vuln.icec.tf/move_along/0f76da769d67e021518f05b552406ff6/secret.jpg
+
+Flag: IceCTF{tH3_c4t_15_Ou7_oF_THe_b49}
