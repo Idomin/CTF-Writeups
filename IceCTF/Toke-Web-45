@@ -10,3 +10,9 @@ The jwt token has the format xxxxxxx.xxxxxxxxxxxxxxxx.xxxxxxxxxxxxxx where the p
 64decode the middle part of the token and it returns the flag.
 
 {"flag":"IceCTF{jW7_t0K3ns_4Re_nO_p14CE_fOR_53CrE7S}","user":"aa"}
+
+
+Jwt info :   https://jwt.io/introduction/
+Base64 info : https://en.wikipedia.org/wiki/Base64
+
+
