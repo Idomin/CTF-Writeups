@@ -1,0 +1,18 @@
+
+
+Thor's a hacker now - misc - 55 points
+
+Hint: Thor has been staring at this for hours and he can't make any sense out of it, 
+can you help him figure out what it is? 
+Url: https://play.icec.tf/problem-static/thor_7101f3b9690d5dc6c3afefa49d82e0526b278ec1c564139369ad22c28721d4cf.txt
+
+Opening the file it shows that its should be a lzip file.
+
+xxd -r thor.txt > thor.lz
+
+Decompress the lzip file
+lzip -d thor.lz
+
+Just open the jpg file
+
+Flag : IceCTF{h3XduMp1N9_l1K3_A_r341_B14Ckh47}
