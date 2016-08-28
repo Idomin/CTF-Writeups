@@ -1,0 +1,13 @@
+
+
+Hidden in plain sight - Rev - 45 points
+
+Log in to the shell and run the file with GDB
+
+Dissasemble the main function with "disas main" 
+
+In the mainfunction there are alot of "mov 0xXX -> %al". 
+Translated the first 3 hex codes to ascii and saw "Ice" so just copy all the hex and translate it to ascii 
+and the flag is there.
+
+flag : IceCTF{look_mom_I_found_it}
