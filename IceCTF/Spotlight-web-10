@@ -1,0 +1,11 @@
+
+
+Spotlight - web - 10 points
+
+Hint:Someone turned out the lights and now we can't find anything. Send halp! spotlight 
+Url: http://spotlight.vuln.icec.tf/
+
+Open the debugger in Firefox ( alt + cmd + s)
+On line 53 you will see a debug msg with the flag
+
+Flag: IceCTF{5tup1d_d3v5_w1th_th31r_l095}
