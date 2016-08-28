@@ -1,0 +1,13 @@
+
+
+Search - misc - 40 points 
+
+Hint: There's something about this domain... search.icec.tf, I don't see anything, but maybe its all about the conTEXT. 
+Url : http://search.icec.tf/
+
+Looking at the TXT records with " dig -t TXT search.icec.tf " 
+
+The flag is then showed 
+
+
+Flag: IceCTF{flag5_all_0v3r_the_Plac3}
