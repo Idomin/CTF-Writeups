@@ -1,0 +1,14 @@
+
+Exposed - Web - 60 points
+
+If you scan the site you see they have a .git structure included. 
+Clone the git with "git clone http://exposed.vuln.icec.tf/.git/ "
+
+From there you can see in flag.php that there was a file called flag.txt 
+
+Open the commit history for example with gitk
+
+One of the flag.php files includes the flag.
+
+Flag : IceCTF{secure_y0ur_g1t_repos_pe0ple}
+
