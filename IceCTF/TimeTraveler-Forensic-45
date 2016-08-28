@@ -1,0 +1,12 @@
+
+
+Time Traveler - Forensic - 45 points
+
+Hint: I can assure you that the flag was on this website at some point in time. 
+Url: http://time-traveler.icec.tf/
+
+Go to https://archive.org/web/
+Paste in the url.
+Visiting the snapshot from 1 June 2016 you will see the flag
+
+Flag : IceCTF{Th3y'11_n3v4r_f1|\|d_m4h_fl3g_1n_th3_p45t}
