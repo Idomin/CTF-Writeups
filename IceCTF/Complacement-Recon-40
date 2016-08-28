@@ -1,0 +1,12 @@
+
+Complacement-Recon-40 points
+
+Hint : These silly bankers have gotten pretty complacent with their self signed SSL certificate. 
+I wonder if there's anything in there. 
+url: complacent.vuln.icec.tf
+
+By looking at the cert you can see the flag under Organizational Unit
+
+
+Flag: IceCTF{this_1nformation_wasnt_h1dd3n_at_a11}
+
