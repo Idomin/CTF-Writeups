@@ -1,0 +1,17 @@
+
+
+Audio Problems - Forensics - 50 points
+
+Hint:We intercepted this audio signal, it sounds like there could be something hidden in it.
+Can you take a look and see if you can find anything? 
+Url: https://play.icec.tf/problem-static/audio_problems_210b88f2232e1c9d770bb5d2069c47aabb86301b0adc7ad606956394a00f298b.wav
+
+Download the file and open it with an spectrum analyzer. 
+I used the page : https://academo.org/demos/spectrum-analyzer/
+
+When playing the song and looking at the spectrum you will see the flag.
+
+FLAG:   IceCTF{y0U_b3t7Er_l15TeN_cL053lY}
+
+
+
