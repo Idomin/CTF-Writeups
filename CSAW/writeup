@@ -10,15 +10,15 @@ Clams Don't Dance - Forensics 100
 
 Download the file img.out
  
-carve the file with foremost 
+Carve the file with foremost 
 
-foremost img.out
+  foremost img.out
 
-in the output there is a zipfile, unzip it
+In the output there is a zipfile, unzip it
 
-Looking around at the files i noticed a file in media image0.gif
+Looking around at the files I noticed a file in /media  called image0.gif
 
-If you open this up you can see that is some kind of code, googling shows that its a maxicode
+If you open this up you can see that it´s some kind of code, googling shows that it´s a maxicode
 
 Upload the file to zxing (https://zxing.org)
 
