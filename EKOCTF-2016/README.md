@@ -34,4 +34,34 @@ https://ctf.ekoparty.org/static/wIMti7Z27b.txt
 
 `EKO{robot_is_following_us}`
 
+# JVM - Reversing 25
+
+Decompiling the java class file we just se a function that is storing the flag in str.
+
+>    String str = "EKO{" + i + "}";
+
+Adding some java to print the str variable, recompiling and running the code gives us the flag.
+
+>  System.out.println(string);
+
+`EKO{893116}` 
+
+# RFC 7230  - WEB 50
+
+>  Get just basic information from this server (ctf.ekoparty.org). 
+
+Curl -I ctf.ekoparty.org gives us the flag in plaintext.
+
+`EKO{this_is_my_great_server}`
+
+
+
+
+
+
+
+
+
+
+
 
