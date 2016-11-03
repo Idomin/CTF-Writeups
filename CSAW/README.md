@@ -1,18 +1,17 @@
-kill forensic
+# kill forensic
 
-download the file with wget
+Download the file with wget
+
 strings file | grep flag
 
-flag{roses_r_blue_violets_r_r3d_mayb3_harambae_is_not_kill}
+`flag{roses_r_blue_violets_r_r3d_mayb3_harambae_is_not_kill}`
 
 
-Clams Don't Dance - Forensics 100
+# Clams Don't Dance - Forensics 100
 
-Download the file img.out
- 
 Carve the file with foremost 
 
-  foremost img.out
+foremost img.out
 
 In the output there is a zipfile, unzip it
 
@@ -24,4 +23,4 @@ Upload the file to zxing (https://zxing.org)
 
 And you can see the flag in the raw text
 
-flag{TH1NK ABOUT 1T B1LL. 1F U D13D, WOULD ANY1 CARE??}
+`flag{TH1NK ABOUT 1T B1LL. 1F U D13D, WOULD ANY1 CARE??}`
