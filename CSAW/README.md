@@ -1,0 +1,27 @@
+kill forensic
+
+download the file with wget
+strings file | grep flag
+
+flag{roses_r_blue_violets_r_r3d_mayb3_harambae_is_not_kill}
+
+
+Clams Don't Dance - Forensics 100
+
+Download the file img.out
+ 
+Carve the file with foremost 
+
+  foremost img.out
+
+In the output there is a zipfile, unzip it
+
+Looking around at the files I noticed a file in /media  called image0.gif
+
+If you open this up you can see that it´s some kind of code, googling shows that it´s a maxicode
+
+Upload the file to zxing (https://zxing.org)
+
+And you can see the flag in the raw text
+
+flag{TH1NK ABOUT 1T B1LL. 1F U D13D, WOULD ANY1 CARE??}
