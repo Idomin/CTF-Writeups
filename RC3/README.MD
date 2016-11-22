@@ -22,3 +22,14 @@ if __name__ == '__main__':
 ```
 
 `Flag is : RC3-2016-XORISGUD`
+
+## Who's a good boy Web-100
+
+
+Easy webchall..  looking at the sourcecode we see alot of jpg files and a css file beeing loaded.
+
+``` <link rel="stylesheet" href="doge.css"/> ```
+
+Opening the doge.css file we see the flag in cleartext.
+
+`flag:RC3-2016-CanineSS `
