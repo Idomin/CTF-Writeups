@@ -1,5 +1,8 @@
 ## Logmein REV-100
 
+This was an easy chall to solve using the angr framework & some static analysis.
+
+
 ```
 
 import angr
